@@ -42,6 +42,7 @@ systemctl enable node_exporter
 # Get node_exporter status
 systemctl status node_exporter
 
-
+# Delete directory distrib
+rm -rf /root/distrib
 
 fi
