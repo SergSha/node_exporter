@@ -31,7 +31,7 @@ cp -fv /root/distrib/node_exporter-1.3.1.linux-amd64/node_exporter /usr/local/bi
 chown node_exporter: /usr/local/bin/node_exporter
 
 # Copy node_exporter.service
-cp -f /root/node_exporter.service /etc/systemd/system/
+cp -f /root/node_exporter/node_exporter.service /etc/systemd/system/
 
 # Start node_exporter
 systemctl start node_exporter
