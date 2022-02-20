@@ -15,7 +15,7 @@ git clone https://github.com/SergSha/node_exporter.git
 #git clone git@github.com:SergSha/node_exporter.git
 ------------------------------------------------
 
-# Make the file inst_set.sh execute
+# Make the file node_exporter_inst.sh execute
 chmod u+x /root/node_exporter/node_exporter_inst.sh
 
 # Start node_exporter_inst.sh
