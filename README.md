@@ -6,7 +6,7 @@
 <p>Connect to GitHub repo for download to host</p>
 <pre>git clone https://github.com/SergSha/node_exporter.git</pre>
 
-<p>==================For to upload to GitHub==================</p>
+<p>================== For to upload to GitHub ==================</p>
 <p>Make pair keys</p>
 <pre>ssh-keygen
 Enter
