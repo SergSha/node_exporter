@@ -1,22 +1,28 @@
 # node_exporter
-# Install git
-yum -y install git
 
-# Connect to GitHub repo for download to host
-git clone https://github.com/SergSha/node_exporter.git
+Install git
+<pre>yum -y install git</pre>
 
-#------- For to upload to GitHub -------------
-# Make pair keys
-#ssh-keygen #Enter-Enter-Enter
-# Copy text of pub key and paste into GitHub:
-#cat /root/.ssh/id_rsa.pub
-#https://github.com/settings/keys
-# Connect to GitHub repo (node_exporter)
-#git clone git@github.com:SergSha/node_exporter.git
-------------------------------------------------
+Connect to GitHub repo for download to host
+<pre>git clone https://github.com/SergSha/node_exporter.git</pre>
 
-# Make the file node_exporter_inst.sh execute
-chmod u+x /root/node_exporter/node_exporter_inst.sh
+#------- For to upload to GitHub -------
+Make pair keys
+<pre>ssh-keygen
+Enter
+Enter
+Enter</pre>
 
-# Start node_exporter_inst.sh
-/root/node_exporter/node_exporter_inst.sh
+Copy text of pub key and paste into GitHub:
+<pre>cat /root/.ssh/id_rsa.pub</pre>
+<pre>https://github.com/settings/keys</pre>
+
+Connect to GitHub repo (node_exporter)
+<pre>git clone git@github.com:SergSha/node_exporter.git</pre>
+#---------------------------------------
+
+Make the file node_exporter_inst.sh execute
+<pre>chmod u+x /root/node_exporter/node_exporter_inst.sh</pre>
+
+Start node_exporter_inst.sh
+<pre>/root/node_exporter/node_exporter_inst.sh</pre>
