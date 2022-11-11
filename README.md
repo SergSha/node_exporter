@@ -19,7 +19,7 @@ Enter</pre>
 
 <p>Connect to GitHub repo (node_exporter)</p>
 <pre>git clone git@github.com:SergSha/node_exporter.git</pre>
-<p>===========================================================</p>
+<p>=====================================================</p>
 
 <p>Make the file node_exporter_inst.sh execute</p>
 <pre>chmod u+x /root/node_exporter/node_exporter_inst.sh</pre>
